@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fugaz+One&display=swap');
+
+/* Ponemos un color de fondo */
+body{
+    background-color: #1a1a1a;
+}    
+
+/* Le ponemos un color a la sección en la que queremos agergar los objetos visuales  */
+section{
+    width: 90%;
+    max-width: 1200px;
+    height: 480px;
+    margin: 50px auto; 
+    background-color: #1d1b1b;
+}
+
+
+#fila{
+    width: 100%;
+    display: flex;
+
+    /* Ajustamos los tamaños que queremos que ocupen la información y las fotos */
+}
+#foto{
+    width: 40%;
+}
+
+#info{
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+}
+#info h2{
+    color: #00f29e;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Fugaz One", sans-serif;
+    margin-bottom: 0%;
+}
+#redes {
+    margin-top: 10px;   /* separación con el texto */
+}
+
+#redes a {
+    margin-right: 10px; /* espacio entre iconos */
+    display: inline-block;
+    
+
+}
+#info h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Fugaz One", sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+/* Agregamos la linea debajo del nombre */
+#info #detalle{
+    width: 190px;
+    height: 4px;
+    background-color: #00f29e;
+    margin-bottom: 20px;
+}
+#info p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Dosis", sans-serif;
+    margin-bottom: 0%;
+
+}
+article{
+    border: 2px solid #00f29e;
+    width: 92%;
+    margin-top: 2%;
+
+
+}
+
+article ul li{
+    color:#ffffff; 
+    font-size: 22px;
+    font-family: "Dosis", sans-serif;
+    list-style: none;
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+/* Le agregamos un efecto a los enlaces de las redes */
+#redes a img{
+    transition: .5s;
+}
+#redes a img:hover{
+    transform: scale(1.3);
+}
